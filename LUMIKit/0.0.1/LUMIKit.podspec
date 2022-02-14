@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "LumiSDK"
+  spec.name         = "LUMIKit"
   spec.version      = "0.0.1"
   spec.summary      = "binary For module"
-  spec.homepage     = "https://github.com/lumiApp/LumiSDK"
+  spec.homepage     = "https://github.com/lumiApp/LUMIKit"
   spec.license      = "MIT"
   spec.author             = { "lumiapp" => "lumiapp@aqara.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = { :git => "https://github.com/lumiApp/LumiSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/lumiApp/LUMIKit.git", :tag => "#{spec.version}" }
   
   spec.frameworks = 'Foundation','UIKit'
   
